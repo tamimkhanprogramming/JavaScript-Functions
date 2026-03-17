@@ -1,25 +1,19 @@
 function tenTimes(number){
 
-    const result = number * 10;
-    return result;
+    const number_big = number * 10;
+    return number_big;
 }
 
-const output = tenTimes(5);
+const number_multiply = tenTimes(5);
 
-console.log("output",output);
+console.log("Output is Given: ",number_multiply);
 
 function cutHalf(number){
 
-    const half = number/2;
-
-    return half;
+    const Cut_Half = number / 2;
+    return Cut_Half;
 }
 
-const cut_Half = cutHalf(10);
+const number_big = cutHalf(10);
 
-console.log("CutHalf: ",cut_Half);
-
-const bignumber = tenTimes(99);
-
-console.log("BigNumber: ",bignumber);
-
+console.log("Divison Are: ",number_big);
