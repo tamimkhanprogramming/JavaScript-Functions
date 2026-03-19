@@ -10,7 +10,7 @@ function isEven(number){
     }
 }
 
-console.log(isEven(5));
+console.log(isEven(4));
 
 function isOdd(number){
 
